@@ -1,0 +1,164 @@
+@import url(./_nullstyle.css);
+
+.hero {
+    background: url(../img/ms-main-hero-desktop.jpeg);
+    height: 100vh;
+    background-size: cover;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    font-family: gotham;
+}
+.hero-menu img {
+    width: 150px;
+}
+.hero-menu{
+    width: 100%;
+    align-items: flex-start;
+}
+.hero-title {
+    text-align: center;
+    font-family: Gotham;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 84px;
+    letter-spacing: 0em;    
+    margin-top: 50px;
+}
+.hero-span {
+    font-family: Gotham;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: block;    
+}
+.hero-character {
+    display: flex;
+    margin-top: 400px;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.hero-block1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.block-1-flex{
+    display: flex;
+    align-items: center;
+
+}
+.hero-block1 p{
+    font-family: Gotham;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+.hero-block1 span{
+    font-family: Gotham;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;  
+    margin-left: 10px;
+}
+.p2 {
+    font-family: Gotham;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+.hero-button button{
+    padding: 10px 40px;
+    border-radius: 30px;
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ------------------------------------------- */
+
+.section-2 {
+    background: black;
+}
+.section-2-content {
+    text-align: center;
+    padding: 30px;
+}
+.section-2-h2 {
+    font-family: Gotham;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center; 
+    color: white;   
+}
+/* -------------------------------- */
+
+.section-3{
+    height: 100vh;
+    background: url(../img/MS-Interior-Hero-Desktop.jpeg);
+    background-size: cover;
+}
+/* -------------------------- */
+.section-4{
+    background: black;
+}
+.section-4-content {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.section-4-block1 {
+    display: flex;
+}
+.section-4-block2 {
+    color: white;
+}
+.section-4-block2 img{
+    width: 350px;
+    border-radius: 15px;
+}
+.section-4-block2 h2{
+    font-family: Gotham;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;   
+    max-width: 300px; 
+    margin-top: 10px;
+}
+.section-4-block2 p{
+    font-family: Gotham;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;    
+    max-width: 300px;
+    margin-top: 15px;
+}
