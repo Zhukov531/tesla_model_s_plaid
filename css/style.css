@@ -1,4 +1,4 @@
-@import url(./_nullstyle.css);
+/* @import url(./_nullstyle.css); */
 
 .hero {
     background: url(../img/ms-main-hero-desktop.jpeg);
@@ -13,7 +13,7 @@
     font-family: gotham;
 }
 .hero-menu img {
-    width: 150px;
+    max-width: 150px;
 }
 .hero-menu{
     width: 100%;
@@ -41,7 +41,7 @@
 }
 .hero-character {
     display: flex;
-    margin-top: 400px;
+    margin-top: 50vh;
     color: white;
     width: 100%;
     align-items: center;
@@ -126,15 +126,23 @@
     background: black;
 }
 .section-4-content {
-    max-width: 80%;
+    /* background: red; */
+    max-width: 90%;
     margin: 0 auto;
-    padding: 50px;
+    padding: 20px 50px;
+    /* flex-wrap: wrap; */
 }
 .section-4-block1 {
     display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    flex-wrap: wrap;
+
 }
 .section-4-block2 {
     color: white;
+
+    padding: 15px;
 }
 .section-4-block2 img{
     width: 350px;
